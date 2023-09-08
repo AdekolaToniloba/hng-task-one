@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'lato', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    user-select: none;
+    overflow-x: hidden;
+    
+}
+
+.container {
+    width: 70%;
+    margin: 2rem auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+}
+
+
+.card {
+    width: 24rem;
+    height: 34rem;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow:  0 10px 30px 5px rgba(0, 0, 0, 0.2);;
+}
+
+a {
+    text-decoration: none;
+}
